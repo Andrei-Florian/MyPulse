@@ -1,0 +1,132 @@
+﻿  In file included from main.c:24:
+build_options.h(23,2): warning :  #warning "Building for IoT Hub Application" [-Wcpp]
+build_options.h(23,2): warning :  #warning "Building for IoT Hub Application"
+build_options.h(23,2): warning :   ^~~~~~~
+main.c(44,33): warning :  extra tokens at end of #include directive
+main.c(44,33): warning :  #include "universum_utilities.h";
+main.c(44,33): warning :                                  ^
+main.c(44,33): warning : In file included from main.c:44:
+main.c(44,33): warning : universum_utilities.h: In function 'delay':
+universum_utilities.h(27,38): warning :  conversion from 'float' to 'long int' may change value [-Wfloat-conversion]
+universum_utilities.h(27,38): warning :   const struct timespec sleepTime = { (timeToSleep / 1000), 0 }; // define the amount of time to sleep
+universum_utilities.h(27,38): warning :                                       ^
+universum_utilities.h(27,38): warning : main.c: At top level:
+main.c(53,1): warning :  data definition has no type or storage class
+main.c(53,1): warning :  minRate = 60;
+main.c(53,1): warning :  ^~~~~~~
+main.c(53,1): warning :  type defaults to 'int' in declaration of 'minRate' [-Wimplicit-int]
+main.c(54,1): warning :  data definition has no type or storage class
+main.c(54,1): warning :  maxRate = 100;
+main.c(54,1): warning :  ^~~~~~~
+main.c(54,1): warning :  type defaults to 'int' in declaration of 'maxRate' [-Wimplicit-int]
+main.c(55,1): warning :  data definition has no type or storage class
+main.c(55,1): warning :  minOxygen = 95;
+main.c(55,1): warning :  ^~~~~~~~~
+main.c(55,1): warning :  type defaults to 'int' in declaration of 'minOxygen' [-Wimplicit-int]
+main.c(311,5): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(311,5): warning :  int getButton() // this loop checks if the button is pressed
+main.c(311,5): warning :      ^~~~~~~~~
+main.c(326,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(326,6): warning :  void setConnections()
+main.c(326,6): warning :       ^~~~~~~~~~~~~~
+main.c(326,6): warning : main.c: In function 'InitPeripheralsAndHandlers':
+main.c(413,3): warning :  'return' with no value, in function returning non-void
+main.c(413,3): warning :    return;
+main.c(413,3): warning :    ^~~~~~
+main.c(413,3): warning : main.c:374:12: note: declared here
+main.c(413,3): warning :  static int InitPeripheralsAndHandlers(void)
+main.c(413,3): warning :             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c(420,3): warning :  'return' with no value, in function returning non-void
+main.c(420,3): warning :    return;
+main.c(420,3): warning :    ^~~~~~
+main.c(420,3): warning : main.c:374:12: note: declared here
+main.c(420,3): warning :  static int InitPeripheralsAndHandlers(void)
+main.c(420,3): warning :             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c(427,3): warning :  'return' with no value, in function returning non-void
+main.c(427,3): warning :    return;
+main.c(427,3): warning :    ^~~~~~
+main.c(427,3): warning : main.c:374:12: note: declared here
+main.c(427,3): warning :  static int InitPeripheralsAndHandlers(void)
+main.c(427,3): warning :             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c(427,3): warning : main.c: At top level:
+main.c(446,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(446,6): warning :  void dowork()
+main.c(446,6): warning :       ^~~~~~
+main.c(492,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(492,6): warning :  void ledRed()
+main.c(492,6): warning :       ^~~~~~
+main.c(500,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(500,6): warning :  void ledBlue()
+main.c(500,6): warning :       ^~~~~~~
+main.c(508,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(508,6): warning :  void ledPurple()
+main.c(508,6): warning :       ^~~~~~~~~
+main.c(516,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(516,6): warning :  void ledGreen()
+main.c(516,6): warning :       ^~~~~~~~
+main.c(524,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(524,6): warning :  void ledOrange()
+main.c(524,6): warning :       ^~~~~~~~~
+main.c(532,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(532,6): warning :  void ledWhite()
+main.c(532,6): warning :       ^~~~~~~~
+main.c(540,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(540,6): warning :  void ledOff()
+main.c(540,6): warning :       ^~~~~~
+main.c(555,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(555,6): warning :  bool getHeartRate()
+main.c(555,6): warning :       ^~~~~~~~~~~~
+main.c(700,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(700,6): warning :  void analyseData()
+main.c(700,6): warning :       ^~~~~~~~~~~
+main.c(755,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(755,6): warning :  void getTemp()
+main.c(755,6): warning :       ^~~~~~~
+main.c(783,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(783,6): warning :  void getAtmoPressure()
+main.c(783,6): warning :       ^~~~~~~~~~~~~~~
+main.c(783,6): warning : main.c: In function 'getAtmoPressure':
+main.c(796,59): warning :  conversion to 'uint32_t' {aka 'unsigned int'} from 'int32_t' {aka 'int'} may change the sign of the result [-Wsign-conversion]
+main.c(796,59): warning :    atmoPressure = lps22hh_from_lsb_to_hpa(data_raw_pressure.i32bit);
+main.c(796,59): warning :                                           ~~~~~~~~~~~~~~~~~^~~~~~~
+main.c(785,10): warning :  unused variable 'reg' [-Wunused-variable]
+main.c(785,10): warning :   uint8_t reg;
+main.c(785,10): warning :           ^~~
+main.c(785,10): warning : main.c: At top level:
+main.c(813,6): warning :  function declaration isn't a prototype [-Wstrict-prototypes]
+main.c(813,6): warning :  void sendDataToAzure()
+main.c(813,6): warning :       ^~~~~~~~~~~~~~~
+main.c(439,13): warning :  'ClosePeripheralsAndHandlers' defined but not used [-Wunused-function]
+main.c(439,13): warning :  static void ClosePeripheralsAndHandlers(void)
+main.c(439,13): warning :              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c(134,12): warning :  'DirectMethodCall' defined but not used [-Wunused-function]
+main.c(134,12): warning :  static int DirectMethodCall(const char *methodName, const char *payload, size_t payloadSize, char **responsePayload, size_t *responsePayloadSize)
+main.c(134,12): warning :             ^~~~~~~~~~~~~~~~
+  Azure Sphere Utility version 19.5.4.53731
+  Copyright (C) Microsoft Corporation. All rights reserved.
+   
+  Start time (UTC): Tuesday, 19 November 2019 20:21:39 
+  verbose: Creating image package. 
+  verbose: Azure Sphere application image package written. 
+  verbose: Appending metadata. 
+  verbose: Wrote metadata:
+    Section: Identity
+      Image Type:           Application
+      Component ID:         685f13af-25a5-40b2-8dd8-8cbc253ecbd8
+      Image ID:             174a6d65-bd6b-483e-939c-5f87d67f7be6
+    Section: Signature
+      Signing Type:         ECDsa256
+      Cert:                 a8d5cc6958f48710140d7a26160fc1cfc31f5df0
+    Section: Debug
+      Image Name:           Avnet-Starter-Kit-reference-V1.0
+      Built On (UTC):       11/19/2019 8:21:40 PM
+      Built On (Local):     11/19/2019 8:21:40 PM
+    Section: Temporary Image
+      Remove image at boot: False
+      Under development:    True
+    Section: ABI Depends
+      Depends on:           ApplicationRuntime, version 2
+   
+  verbose: Packaging completed successfully. 
+  verbose: Output file is at: C:\Users\andreiflorian\OneDrive - Universum\Universum Save\MyPulse\MyPulse\bin\ARM\Debug\MyPulse.imagepackage 
+  Command completed successfully in 00:00:00.9551750. 

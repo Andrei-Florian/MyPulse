@@ -1,0 +1,19 @@
+{
+  "Capabilities": {
+    "AllowedConnections": [ "universum-azuresphere-hub.azure-devices.net" ],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [ 17, 2, 1, 43, 35, 31 ],
+    "I2cMaster": [ "ISU2" ],
+    "NetworkConfig": false,
+    "SpiMaster": [],
+    "SystemTime": true,
+    "Uart": [],
+    "WifiConfig": true
+  },
+  "CmdArgs": [ "HostName=universum-azuresphere-hub.azure-devices.net;DeviceId=UniverumAzureSphere;SharedAccessKey=H7rQJ+6AzraZnJhuZ1iYq8bCg9TCxUMouwtmMAeBpyw=" ],
+  "ComponentId": "685f13af-25a5-40b2-8dd8-8cbc253ecbd8",
+  "EntryPoint": "/bin/app",
+  "Name": "Avnet-Starter-Kit-reference-V1.0",
+  "SchemaVersion": 1
+}
