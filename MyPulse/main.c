@@ -83,7 +83,7 @@ int epollFd = -1;
 bool versionStringSent = false;
 
 // Define the Json string format
-static const char jsonFormat[45] = "{\"%s\":\"%f\", \"%s\":\"%i\", \"%s\":\"%f\", \"%s\":\"%f\"}";
+static const char jsonFormat[45] = "{\"%s\":%f, \"%s\":%i, \"%s\":%f, \"%s\":%f}";
 
 // Termination state
 volatile sig_atomic_t terminationRequired = false;
@@ -485,7 +485,6 @@ void dowork()
 	// AzureIoT_DoPeriodicTasks() needs to be called frequently in order to keep active
 	// the flow of data with the Azure IoT Hub
 	AzureIoT_DoPeriodicTasks();
-	delay(100);
 }
 
 // turn LED red
@@ -580,7 +579,7 @@ bool getHeartRate()
 	while (!getButton()) // wait until the button is pressed.
 	{
 		dowork(); // buffer events in the meanwhile
-		delay(200);
+		delay(100);
 	}
 
 	buzz(1000); // buzzer
