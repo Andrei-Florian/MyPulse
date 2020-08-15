@@ -1,4 +1,6 @@
 # Overview
+![Cover Image](https://hackster.imgix.net/uploads/attachments/1028602/_dX8ORYo4JQ.blob?auto=compress%2Cformat&w=900&h=675&fit=min)
+
 Healthcare is rapidly developing every day. With an increased number of patients needing care around the world, hospitals have to be on top of their game and people aware of their health. But one should not be needing to visiting a doctor to get an SpO2 test as this would crowd hospitals.
 
 The problem is that with technology advancing, healthcare must keep up the pace and enter the age of IoT. Hospitals have taken great leaps to digitalise their records and recipes but what happens when the patient leaves the hospital with a disease such as COPD? How does the doctor know if the patient is recovering without the need of constant visits?
