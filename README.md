@@ -1,5 +1,5 @@
 # Overview
-![Cover Image](https://hackster.imgix.net/uploads/attachments/499736/cover_image_PZNufTcw4c.JPG?auto=compress%2Cformat&w=900&h=675&fit=min)
+![Cover Image](https://hackster.imgix.net/uploads/attachments/1028602/_dX8ORYo4JQ.blob?auto=compress%2Cformat&w=900&h=675&fit=min)
 
 Healthcare is rapidly developing every day. With an increased number of patients needing care around the world, hospitals have to be on top of their game and people aware of their health. But one should not be needing to visiting a doctor to get an SpO2 test as this would crowd hospitals.
 
